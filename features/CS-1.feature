@@ -6,4 +6,5 @@ Feature: Coffee Inventories
   Scenario:  Coffee should reduce inventory count when purchased
     Given an inventory list of 3 coffees
     When I purchase a coffee
+    And I receive it
     Then I expect the inventory count to equal 2
