@@ -1,12 +1,11 @@
-Feature:  Shop should order more coffee on Tuesdays
-  As a owner
-  And the date is Tuesday
-  I expect the system to place a reorder for coffees
-  
-  @inventory
-  Scenario:  Reorder 5 Coffees with 0 count on Tuesday
-    Given an inventory order
-    When the date is Tuesday
-    And the inventory count of coffees is 0
-    Then I expect the inventory order to be placed
-    And I expect the coffees ordered to be 5
+Feature:  Shop should be closed on Tuesdays		
+  As the owner		
+  When the date is Tuesday		
+  I expect to be closed		
+  		
+  @store_hours
+  Scenario: The shop should be closed on Tuesday		
+    Given a menu order		
+    When the date is Tuesday		
+    Then I expect the inventory count to equal previous count		
+    And I expect a message 'coffees are not sold on Tuesdays'
