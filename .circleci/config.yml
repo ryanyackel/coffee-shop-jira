@@ -46,7 +46,7 @@ jobs:
           command: |
             bundle install
             mkdir /tmp/test-results
-            rake
+            rake --trace
 
       # collect reports
       - store_test_results:
