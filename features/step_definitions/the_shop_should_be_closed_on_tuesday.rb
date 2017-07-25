@@ -1,18 +1,15 @@
-
-require "spec_helper"
-
-Given(/^a menu order$/) do
+Given /^a menu order$/ do
   pending
 end
 
-When(/^the date is Tuesday$/) do
+When /^the date is Tuesday$/ do
   pending
 end
 
-Then(/^I expect the inventory count to equal previous count$/) do
+Then /^I expect the inventory count to equal previous count$/ do
   fail
 end
 
-Then(/^I expect a message 'coffees are not sold on Tuesdays'/) do
+Then /^I expect a message 'coffees are not sold on Tuesdays$'/ do
   pending
 end
