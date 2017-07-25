@@ -54,3 +54,6 @@ jobs:
       - store_artifacts:
           path: /tmp/test-results
           destination: test-results
+notify:
+  webhooks:
+    - url: http://pulse.qas-labs.ngrok.io/api/v1/webhooks/ZfdZKWeBcGQCbvDkn/ZXyT76YRtZvw8vkae/a17f5a56-1132-4b07-8761-f96d60c8e88d
