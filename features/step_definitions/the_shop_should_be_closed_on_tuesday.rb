@@ -7,7 +7,7 @@ When /^the date is Tuesday$/ do
 end
 
 Then /^I expect the inventory count to equal previous count$/ do
-  fail
+  expect(true).to eql(false)
 end
 
 Then /^I expect a message 'coffees are not sold on Tuesdays$'/ do
