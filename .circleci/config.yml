@@ -44,7 +44,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            mkdir reports/test-results
+            mkdir -p reports/test-results
             bundle install
             bundle exec rake
 
