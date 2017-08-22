@@ -29,8 +29,8 @@ pipeline {
   }
   post {
     always {
-      archive "/tmp/test-results/**/*"
-      junit "/tmp/test-results/TEST-features-CS-2.xml"
+      archive "reports/test-results/**/*"
+      junit "reports/test-results/*.xml"
     }
   }
 }
