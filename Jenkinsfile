@@ -30,7 +30,7 @@ pipeline {
   post {
     always {
       archive "/tmp/test-results/**/*"
-      junit "/tmp/test-results/*.xml"
+      junit "/tmp/test-results/TEST-features-CS-2.xml"
     }
   }
 }
