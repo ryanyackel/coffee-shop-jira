@@ -45,13 +45,8 @@ jobs:
           name: run tests
           command: |
             mkdir /tmp/test-results
-            TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)"
-            
-            bundle exec rspec --format progress \
-                            --format RspecJunitFormatter \
-                            --out /tmp/test-results/rspec.xml \
-                            --format progress \
-                            "${TEST_FILES}"
+            bundle install
+            bundle exec rake
 
       # collect reports
       - store_test_results:
@@ -59,3 +54,6 @@ jobs:
       - store_artifacts:
           path: /tmp/test-results
           destination: test-results
+notify:
+  webhooks:
+    - url: http://pulse.qas-labs.ngrok.io/api/v1/webhooks/ezJo2NRSS4T7SyDDT/ZkfCh8F6XTDrLMfGq/c7865217-a996-44e3-9125-1af927ae984d
