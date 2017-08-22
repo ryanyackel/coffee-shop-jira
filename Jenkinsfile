@@ -27,4 +27,10 @@ pipeline {
       }
     }
   }
+  post {
+    always {
+      archive "reports/test-results/**/*"
+      junit "reports/test-results/*.xml"
+    }
+  }
 }
