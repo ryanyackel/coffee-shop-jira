@@ -77,3 +77,9 @@ end
 Then /^I expect the price of the coffee to be price * .5$/ do
   expect(true).to eql(true)
 end
+
+When /^the inventory count of coffees is <condition>$/ do
+  pending
+  # comploicated new library ui logic to map test step
+end
+
