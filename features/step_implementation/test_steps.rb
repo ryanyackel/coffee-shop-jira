@@ -74,10 +74,6 @@ When /^the inventory count of coffees is > 3$/ do
   expect(true).to eql(true)
 end
 
-When /^the date is Tuesday$/ do
-  expect(true).to eql(true)
-end
-
 Then /^I expect the price of the coffee to be price * .5$/ do
   expect(true).to eql(true)
 end
