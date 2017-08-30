@@ -2,7 +2,7 @@
 
 Given /^an inventory list of 3 coffees$/ do
   expect(true).to eql(true)
-endate
+end
 
 When /^I purchase a coffee$/ do
   expect(true).to eql(true)
