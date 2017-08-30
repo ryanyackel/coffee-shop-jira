@@ -29,3 +29,21 @@ end
 Then /^I expect coffees to be marked unavailable$/ do
   expect(true).to eql(true)
 end
+
+# CS-2
+
+Given /^a menu order$/ do
+  expect(true).to eql(true)
+end
+
+When /^I purchase a 'dark' coffee$/ do
+  expect(true).to eql(true)
+end
+
+Then /^I expect to be served in a dark mug$/ do
+  expect(true).to eql(true)
+end
+
+Then /^I expect a message 'coffees are not sold on Tuesdays'$/ do
+  expect(true).to eql(true)
+end
