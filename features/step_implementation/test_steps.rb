@@ -69,9 +69,6 @@ Then /^I expect the coffees ordered to be 5$/ do
 end
 
 # CS-4
-Given /^a menu order$/ do
-  expect(true).to eql(true)
-end
 
 When /^the inventory count of coffees is > 3$/ do
   expect(true).to eql(true)
