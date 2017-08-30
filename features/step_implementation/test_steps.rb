@@ -31,7 +31,6 @@ Then /^I expect coffees to be marked unavailable$/ do
 end
 
 # CS-2
-
 Given /^a menu order$/ do
   expect(true).to eql(true)
 end
@@ -45,5 +44,26 @@ Then /^I expect to be served in a dark mug$/ do
 end
 
 Then /^I expect a message 'coffees are not sold on Tuesdays'$/ do
+  expect(true).to eql(true)
+end
+
+# CS-3
+Given /^an inventory order$/ do
+  expect(true).to eql(true)
+end
+
+When /^the date is Tuesday$/ do
+  expect(true).to eql(true)
+end
+
+When /^the inventory count of coffees is 0$/ do
+  expect(true).to eql(true)
+end
+
+Then /^I expect the inventory order to be placed$/ do
+  expect(true).to eql(true)
+end
+
+Then /^I expect the coffees ordered to be 5$/ do
   expect(true).to eql(true)
 end
