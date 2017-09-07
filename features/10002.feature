@@ -9,3 +9,4 @@ Scenario: The shop should be closed on Tuesday
   When the date is Tuesday
   Then I expect the inventory count to equal previous count
   And I expect a message 'coffees are not sold on Tuesdays'
+  
