@@ -17,5 +17,6 @@ Feature: Shop should be closed on Tuesdays
     
     Examples:
       | thing |
-      | 1 |
-      | 2 |
+      | car |
+      | engine starts |
+      | car cranks |
