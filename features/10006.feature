@@ -9,3 +9,14 @@ Feature: Shop should be closed on Tuesdays
     When the date is Tuesday
     Then I expect the inventory count to equal previous count
     And I expect a message 'coffees are not sold on Tuesdays'
+
+  Scenario Outline:  Test outline
+    Given a <thing>
+    When a <thing>
+    Then a <thing>
+    
+    Examples:
+      | thing |
+      | car |
+      | engine starts |
+      | car cranks |
