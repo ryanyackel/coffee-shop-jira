@@ -11,3 +11,4 @@ Feature: Shop should be closed on Tuesdays
     And I expect a message 'coffees are not sold on Tuesdays'
     
     
+    
