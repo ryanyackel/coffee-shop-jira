@@ -1,5 +1,6 @@
 Feature: Shop should reduce price of leftover coffees on Mondays
 
+  @coffee @store_hours
   Scenario: Purchase coffee on Mondays reduces cost if count > 3
     Given a menu order
     When I purchase a coffee
