@@ -3,6 +3,7 @@ Feature: Tag Completion
   If I type some tags
   I expect to get complete suggestions
   
+  @tags
   Scenario: Blank Line completes Tag on '@'
     Given a blank line above the Scenario header
     When I type '@c'
