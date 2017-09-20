@@ -1,3 +1,4 @@
+@tag_completion
 Feature: Tag Completion
   As an end user
   If I type some tags
