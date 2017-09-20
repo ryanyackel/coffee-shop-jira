@@ -10,3 +10,5 @@ Feature:  Shop should be closed on Tuesdays
     Then I expect the inventory count to equal previous count
     And I expect a message 'coffees are not sold on Tuesdays'
     
+    
+    
