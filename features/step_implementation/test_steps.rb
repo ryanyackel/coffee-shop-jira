@@ -43,10 +43,6 @@ Then /^I expect to be served in a dark mug$/ do
   expect(true).to eql(true)
 end
 
-Then /^I expect a message 'coffees are not sold on Tuesdays'$/ do
-  expect(true).to eql(true)
-end
-
 # CS-3
 Given /^an inventory order$/ do
   expect(true).to eql(true)
