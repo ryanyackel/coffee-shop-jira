@@ -1,5 +1,4 @@
 And /^I expect a message 'coffees are not sold on Tuesdays'$/ do
-  # expect(true).to eql(false)
-  pending
+  expect(true).to eql(false)
 end
   
