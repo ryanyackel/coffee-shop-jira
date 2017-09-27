@@ -1,7 +1,3 @@
-
-Given /^a menu order$/ do
-  expect(true).to eql(true)
-end
 When /^the date is Tuesday$/ do
   expect(true).to eql(true)
 end
